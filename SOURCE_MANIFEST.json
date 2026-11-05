@@ -6,13 +6,33 @@
   },
   {
     "path": "README.md",
-    "bytes": 3738,
-    "sha256": "dfc56005183c0ca5e0f1d19e6984e9772a86e4b22d91ae04e8ce2542885f708f"
+    "bytes": 3964,
+    "sha256": "640957debd71bfda244fcb4a3d6d29214f9ca5158dca5cc883abb68ca9eb0978"
   },
   {
     "path": "docs/architecture.md",
-    "bytes": 1384,
-    "sha256": "1c9f6cd53a503129850200a8e34a8ff250c6e4afc205938ca2bb7deff91bfe6b"
+    "bytes": 1343,
+    "sha256": "86cb55afa479d654bf0601b33e16579a0f2f06a9a6e01a20dd8a6cba9f0f8863"
+  },
+  {
+    "path": "docs/figures/architecture.pdf",
+    "bytes": 322939,
+    "sha256": "42d151c57f573b72d0b7063800e233b6527adf3a0ba0ef48f26e871b6161a61c"
+  },
+  {
+    "path": "docs/figures/architecture.png",
+    "bytes": 67348,
+    "sha256": "61fe10c58dab204da91d8d875403d6c8664e3ae704893754dd936bf8c9756c45"
+  },
+  {
+    "path": "docs/figures/asr_qs_tradeoff_updated.pdf",
+    "bytes": 130181,
+    "sha256": "ada71ffb5e226fe2be7110dfd34f41ee327f47d711409d19ff6078de6270c511"
+  },
+  {
+    "path": "docs/figures/asr_qs_tradeoff_updated.png",
+    "bytes": 53282,
+    "sha256": "01f867d7b660421de45592d703ba471c8dca5574bb646f117c87777b7ec04658"
   },
   {
     "path": "docs/figures/controller_feedback_asr.pdf",
@@ -31,8 +51,8 @@
   },
   {
     "path": "docs/results.md",
-    "bytes": 1908,
-    "sha256": "81d5230ab775e2b8135f2cbfce846930d4d4da5bec6f683daab0238777b04640"
+    "bytes": 2106,
+    "sha256": "9ec5505a47187db46555483a5b01f12b67099391097cf86fcc2c94a61f6c451a"
   },
   {
     "path": "jailbreak/__init__.py",

@@ -17,6 +17,12 @@ Targets are Qwen2.5-14B, DeepSeek-R1-7B, Vicuna-13B, and GPT-OSS-20B; the evalua
 | xJailbreak | 0.860 | 1.209 | 0.980 | 1.592 | 1.000 | 2.540 | 0.980 | 2.633 |
 | Ours | 1.000 | 1.100 | 1.000 | 1.480 | 1.000 | 1.200 | 0.980 | 1.816 |
 
+## Success–query trade-off
+
+![Manuscript Figure 2](figures/asr_qs_tradeoff_updated.png)
+
+[Vector PDF](figures/asr_qs_tradeoff_updated.pdf). Extracted from page 21 of the supplied manuscript PDF.
+
 ## First-query performance and subsequent attempts
 
 ![Cumulative ASR for controller and feedback conditions](figures/controller_feedback_asr.png)

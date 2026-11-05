@@ -6,9 +6,13 @@ Research implementation of a hybrid Soft Actor–Critic controller, frozen promp
 
 [Framework architecture diagram](docs/architecture.md) · [Results and tables](docs/results.md)
 
+![Architecture from the paper](docs/figures/architecture.png)
+
+![Attack success and target-query efficiency](docs/figures/asr_qs_tradeoff_updated.png)
+
 ![Controller-feedback cumulative ASR](docs/figures/controller_feedback_asr.png)
 
-The architecture page provides a Mermaid redraw of the framework. The results page contains the primary manuscript table and links to the available paper figure and LaTeX table sources.
+The architecture and trade-off figures are extracted from the supplied manuscript PDF. Vector PDFs and PNG previews are included. The architecture page also retains a Mermaid overview; the results page contains manuscript tables and the cumulative-ASR figure.
 
 ## Related workshop paper
 

@@ -1,6 +1,12 @@
 # Framework architecture
 
-This Mermaid diagram summarizes the manuscript interface. It is a repository-native redraw, not the paper's original artwork.
+![Architecture from Figure 1 of the manuscript](figures/architecture.png)
+
+[Vector PDF](figures/architecture.pdf). Extracted from page 7 of the supplied manuscript PDF.
+
+## Mermaid overview
+
+The following editable overview supplements the original artwork.
 
 ```mermaid
 flowchart TD
@@ -25,4 +31,3 @@ flowchart TD
 
 During evaluation, all components are frozen. Rewriter and judge calls are auxiliary; submissions to the target count toward the target-query budget. The two inspected controller-feedback checkpoints have one-step terminal training records; the evaluation interface supports repeated attempts.
 
-The manuscript references `Figure-Page-4.drawio.pdf`. That original asset was not present in the available workspace and has not been substituted with an unrelated figure.
