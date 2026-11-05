@@ -1,0 +1,20 @@
+# Credentials and local environments
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+.router-venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+# Experiment outputs and model files
+artifacts/
+logs/
+*.log
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.orig

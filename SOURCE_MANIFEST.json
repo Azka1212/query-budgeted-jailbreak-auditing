@@ -1,0 +1,832 @@
+[
+  {
+    "path": ".gitignore",
+    "bytes": 233,
+    "sha256": "ae463d592730416a7a9965d9af88bcb64d97dc5d842785bb37857c33e91eaf2c"
+  },
+  {
+    "path": "README.md",
+    "bytes": 3338,
+    "sha256": "63f5b9fb8581ab51c7be916a940276fd769762d1a63a5ab8f6a1dfc8e1abd145"
+  },
+  {
+    "path": "jailbreak/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "jailbreak/config/ablations/b1_algorithm.yaml",
+    "bytes": 1769,
+    "sha256": "29e55f90eb901d48f168c224299e815c7c9475afd290e6cf0bbb25a98802e7a5"
+  },
+  {
+    "path": "jailbreak/config/ablations/b2/reward_binary.yaml",
+    "bytes": 2283,
+    "sha256": "89827c13018d4e851777e7dc2c1beefad09c1db0bf663b4a72a2894f3f845bad"
+  },
+  {
+    "path": "jailbreak/config/ablations/b2/reward_full5d.yaml",
+    "bytes": 2957,
+    "sha256": "32b0e5bfccb5214d70408b1556b5dc7c18159558500db2ca9bafe8c46341a030"
+  },
+  {
+    "path": "jailbreak/config/ablations/b2/reward_scalar.yaml",
+    "bytes": 2206,
+    "sha256": "b164bd418365d885efb4ea0760c1bbd7c74a05a271f8dae9f67dbe3699c84645"
+  },
+  {
+    "path": "jailbreak/config/ablations/b3/b3.yaml",
+    "bytes": 2300,
+    "sha256": "9c74171d54cddd3ac81352d794d7c0f66572e86256d8c531219092518ce3945f"
+  },
+  {
+    "path": "jailbreak/config/ablations/b3_component.yaml",
+    "bytes": 706,
+    "sha256": "e370dd406a52369912bb8ef8c3f075972c9c8a77dfe76efa96dc5359b130f338"
+  },
+  {
+    "path": "jailbreak/config/baselines/autodan.yaml",
+    "bytes": 5662,
+    "sha256": "c0d426d087e6c9437263aeef4e34d0d2b236b4dea2e0beaadedbb2ed46f82fca"
+  },
+  {
+    "path": "jailbreak/config/baselines/gcg.yaml",
+    "bytes": 4151,
+    "sha256": "7c59376d1f44d838cdd2b9bb2040b15c265e2cf1b0f45c24edd61a2c400f6cb7"
+  },
+  {
+    "path": "jailbreak/config/baselines/gptfuzzer.yaml",
+    "bytes": 6360,
+    "sha256": "758c61a4a32fc9503bd6601c8b7298c738d958d0663b9b13a6c0720713c642c5"
+  },
+  {
+    "path": "jailbreak/config/baselines/pair.yaml",
+    "bytes": 4649,
+    "sha256": "7df8032edbc97dfaba6bf385c4ecbdbad6f9e689f9d454b5f5588a0425be114b"
+  },
+  {
+    "path": "jailbreak/config/baselines/rlbreaker.yaml",
+    "bytes": 6414,
+    "sha256": "a868347a2222a7e37eb2b74bf645347984ef56c29438169f5f489a323c32f2f5"
+  },
+  {
+    "path": "jailbreak/config/baselines/tap.yaml",
+    "bytes": 7456,
+    "sha256": "6fbffed90b80f07bed187900fe919fe39afc17365d006085d51489cc6170d448"
+  },
+  {
+    "path": "jailbreak/config/baselines/xjailbreak.yaml",
+    "bytes": 4299,
+    "sha256": "b593fa950615d6b2d23046654940b31cf2c4126611f379170c42397624cd28f2"
+  },
+  {
+    "path": "jailbreak/config/sac-traid.yaml",
+    "bytes": 3172,
+    "sha256": "3bb9675913e48a79ebbe29fb7fcd26ebf49ca17591d7c0779e13d0eea7edcf22"
+  },
+  {
+    "path": "jailbreak/config/stack.yaml",
+    "bytes": 5404,
+    "sha256": "af31166c65ca4b3e577afb8f456b34146003304bea606858a56d1685ece89922"
+  },
+  {
+    "path": "jailbreak/data/jailbreakhub/LICENSE",
+    "bytes": 1061,
+    "sha256": "ad77ffb660cded66e9dcca34e882103c9b636413cd36a3524bf297b0d3fc6e3f"
+  },
+  {
+    "path": "jailbreak/data/jailbreakhub/README.md",
+    "bytes": 7962,
+    "sha256": "ea9181af592a8e5440c3e92d20687a1c44c33d35ae84c29532b468d0e2cd6cf0"
+  },
+  {
+    "path": "jailbreak/data/jailbreakhub/data/forbidden_question/forbidden_question_set.csv",
+    "bytes": 38076,
+    "sha256": "0d1e5cae6eb755f31103809ee45cfc537e9e2d92b5171f08704bae7de82081c3"
+  },
+  {
+    "path": "jailbreak/data/jbb/LICENSE",
+    "bytes": 1076,
+    "sha256": "7e1ae8f3676f39ff6e62af1743385c176a9476b1157f35bb9d05b4e6c65b7d94"
+  },
+  {
+    "path": "jailbreak/data/jbb/README.md",
+    "bytes": 6549,
+    "sha256": "fc84ea5865e60ba15f3776ff43ace47cbbf3470775f389afbb6bdb4d6333618a"
+  },
+  {
+    "path": "jailbreak/data/jbb/data/benign-behaviors.csv",
+    "bytes": 20570,
+    "sha256": "3cda234d21a991fa309bbfea4b6d9dae31ccdf8e9d452424b6a983e4fdc33468"
+  },
+  {
+    "path": "jailbreak/data/jbb/data/harmful-behaviors.csv",
+    "bytes": 23116,
+    "sha256": "4a8ec6832056b631eb092dccc60d37a61c3d441268268888b3d006288afeffa1"
+  },
+  {
+    "path": "jailbreak/data/jbb/data/judge-comparison.csv",
+    "bytes": 363132,
+    "sha256": "dacaf76a1057785f11b0fc6aa07b9a73cdab588319ddfc5e8cef2909e5b112a5"
+  },
+  {
+    "path": "jailbreak/data/jbb/data/seeds_ood-jbb-goal-v2.jsonl",
+    "bytes": 21023,
+    "sha256": "cc881c975f0ff1cb7b38d05e1031fa5cbf6c07127f7e930700f35c65396efcf0"
+  },
+  {
+    "path": "jailbreak/data/jbb/data/seeds_ood-jbb.jsonl",
+    "bytes": 8523,
+    "sha256": "9945f13c0858b85666cff5884b8cfda147deed70198c8b6a3d9e60cf6efcad82"
+  },
+  {
+    "path": "jailbreak/data/sorrybench/LICENSE",
+    "bytes": 3382,
+    "sha256": "667a3edd172ba0c2cb11ddb02b280b0653baaa0a003729e5d195fb022b9d1f80"
+  },
+  {
+    "path": "jailbreak/data/sorrybench/README.md",
+    "bytes": 11530,
+    "sha256": "951e51b1aa9d8fbe898b0f21168f11c43dc6631a70f0f4bf952a4a50a8903f3b"
+  },
+  {
+    "path": "jailbreak/data/sorrybench/question.jsonl",
+    "bytes": 92842,
+    "sha256": "001213f6f819f3b4df5a0ef488b0533bce05e4ece7607ab189499cff93461b2f"
+  },
+  {
+    "path": "jailbreak/data/sorrybench/question_ascii.jsonl",
+    "bytes": 1507288,
+    "sha256": "9ea2d9338d0f36116568d98fca2591706224ae2abbe03233be3ca50341fa8535"
+  },
+  {
+    "path": "jailbreak/data/sorrybench/question_atbash.jsonl",
+    "bytes": 979035,
+    "sha256": "e88172416028bdb0653d5479a99596846a29c102584454b6909bd869a71d4cfa"
+  },
+  {
+    "path": "jailbreak/data/sorrybench/question_authority_endorsement.jsonl",
+    "bytes": 334453,
+    "sha256": "52747e644f1746dd5a627c2819b2eb75a04bf3342e1c17ad1f82b2c3f367c138"
+  },
+  {
+    "path": "jailbreak/data/sorrybench/question_caesar.jsonl",
+    "bytes": 1015082,
+    "sha256": "82a46a2b06e88c532d828900c34ab86b117dbbcba3dbeb8982a247f4af35c2c9"
+  },
+  {
+    "path": "jailbreak/data/sorrybench/question_evidence-based_persuasion.jsonl",
+    "bytes": 403925,
+    "sha256": "f380e616532f2b60ed747bc084d1b0f72a3cff1c54928e0d83c99c629dbda474"
+  },
+  {
+    "path": "jailbreak/data/sorrybench/question_expert_endorsement.jsonl",
+    "bytes": 312982,
+    "sha256": "c0fb490a00db188d2c2a3ab64a44995d954a489010c38013b926c04387cb3302"
+  },
+  {
+    "path": "jailbreak/data/sorrybench/question_logical_appeal.jsonl",
+    "bytes": 283632,
+    "sha256": "178e7f997444bd43da34cadf9b355da603d7dbeb3cbc4d8ba800cd5e0f354acf"
+  },
+  {
+    "path": "jailbreak/data/sorrybench/question_misrepresentation.jsonl",
+    "bytes": 336657,
+    "sha256": "599df62ce807856ede60d24b7e589ec11ccfb8600f8da3607de40f38adc9e59d"
+  },
+  {
+    "path": "jailbreak/data/sorrybench/question_misspellings.jsonl",
+    "bytes": 89811,
+    "sha256": "7bd4190015a4b5fac38238a149bf46933dcb2e241a4ddb1383ef630305fef94c"
+  },
+  {
+    "path": "jailbreak/data/sorrybench/question_morse.jsonl",
+    "bytes": 1445980,
+    "sha256": "49afa9a1fd44ecc9da6508b082da051e294171df3584a2c5aa832025e68bb9a9"
+  },
+  {
+    "path": "jailbreak/data/sorrybench/question_question.jsonl",
+    "bytes": 91125,
+    "sha256": "b39c03a8128aab38cb8ed4f6b258a7b7366205221a6a29a0a4de6333f1403cb7"
+  },
+  {
+    "path": "jailbreak/data/sorrybench/question_role_play.jsonl",
+    "bytes": 146519,
+    "sha256": "34300983cbb409f99869e6c19dd1a94675e35c17bbbd4c5bad416c33baadf762"
+  },
+  {
+    "path": "jailbreak/data/sorrybench/question_slang.jsonl",
+    "bytes": 84108,
+    "sha256": "c478ae1b2ccc63b2a7994ae5c5555c1033ccfbec61a4f9038dc63cf7294a3dcd"
+  },
+  {
+    "path": "jailbreak/data/sorrybench/question_technical_terms.jsonl",
+    "bytes": 164294,
+    "sha256": "476820335410e28f1807c1c9fac7e4f22a57c892d6835284ee2ad3a5860b5923"
+  },
+  {
+    "path": "jailbreak/data/sorrybench/question_translate-fr.jsonl",
+    "bytes": 110898,
+    "sha256": "a6b4c73b95368a481c8e89c28b10948062a67fd93e6342b45c7c3bb0874a67c7"
+  },
+  {
+    "path": "jailbreak/data/sorrybench/question_translate-ml.jsonl",
+    "bytes": 234335,
+    "sha256": "e1368139aeedd8c0e2458c18ddc3a14274f7f86ff4e44fa12cf37879286fe533"
+  },
+  {
+    "path": "jailbreak/data/sorrybench/question_translate-mr.jsonl",
+    "bytes": 197737,
+    "sha256": "a0ca0518327e7b4119562a7162767e4d8d6696123c7b9841040c52f99d69b745"
+  },
+  {
+    "path": "jailbreak/data/sorrybench/question_translate-ta.jsonl",
+    "bytes": 230905,
+    "sha256": "6a81878cd2487da37daa7da5c2c3b52901ac54e6cbaff6d243672a28333695a1"
+  },
+  {
+    "path": "jailbreak/data/sorrybench/question_translate-zh-cn.jsonl",
+    "bytes": 90551,
+    "sha256": "b2237e068d9da9c3d4ad3d0599b2ba19b999426452f4adf7b8ef16695467012b"
+  },
+  {
+    "path": "jailbreak/data/sorrybench/question_uncommon_dialects.jsonl",
+    "bytes": 101417,
+    "sha256": "78257c8b708206a7cb82ebc089321eeaf3b70ddbe74e296f775d4d09b21a4fe6"
+  },
+  {
+    "path": "jailbreak/data/sorrybench/sorry_bench_202503.csv",
+    "bytes": 61167,
+    "sha256": "a55d39c4d75d82278d1a5e079ab011fab10e57f67d04b37832ee671d614e28b9"
+  },
+  {
+    "path": "jailbreak/scripts/analyze_reviewer1.py",
+    "bytes": 13555,
+    "sha256": "ca6e5844308bb8fae29da6b38e0a39668bb9dabd5d859be891f9189b96de3459"
+  },
+  {
+    "path": "jailbreak/scripts/build_provisional_q25_snapshot.py",
+    "bytes": 6520,
+    "sha256": "05982ddbbc279a1926d1dd3dfe6d28221ee77569aed67462d28741a2d3f5a496"
+  },
+  {
+    "path": "jailbreak/scripts/build_revision_tables.py",
+    "bytes": 29016,
+    "sha256": "464323ef3ec7a8167f9c8eac6051d4fad66dc86fdf5b6d7097fab473147f53e2"
+  },
+  {
+    "path": "jailbreak/scripts/check_rerun_ready.py",
+    "bytes": 7520,
+    "sha256": "aa1e3f4ef7df036499979886994042b0d254af1b2e3d9ee6c835b2ee321fa0d9"
+  },
+  {
+    "path": "jailbreak/scripts/eval_old_sac_checkpoints.py",
+    "bytes": 10603,
+    "sha256": "67292c5cbebe7cd1510fcd4aefdb8eefa113cd3729bd4ef8ed782ff48af40bd8"
+  },
+  {
+    "path": "jailbreak/scripts/export_clean_submission_bundle.py",
+    "bytes": 14012,
+    "sha256": "c98e297db4580d5857c9abc4b2e5d0818102aabeecefe9b36cbbde990e8d14bc"
+  },
+  {
+    "path": "jailbreak/scripts/export_transfer_seeds.py",
+    "bytes": 2398,
+    "sha256": "432af923dff6d6159730cce78b15d9494c0c86b601df78c0ac04646b7c678f65"
+  },
+  {
+    "path": "jailbreak/scripts/extend_rewriter_sensitivity_gptoss.py",
+    "bytes": 1723,
+    "sha256": "7903d20bb7327b92913f58be7fb22d58f4ec84ce9732a9ea7040e431ed12a0f0"
+  },
+  {
+    "path": "jailbreak/scripts/finalize_missing_tables.py",
+    "bytes": 4418,
+    "sha256": "14c8e33f973db005030ac56ab3f8e43b9603e23a5ee2fd342477ca3c1b9d1747"
+  },
+  {
+    "path": "jailbreak/scripts/reconcile_gptfuzzer_success.py",
+    "bytes": 4035,
+    "sha256": "6efbc0199b6bd78de0604d3cb04d033f34f7ef4a4187aa1a87ba2352e54a9339"
+  },
+  {
+    "path": "jailbreak/scripts/report_controller_feedback_ablation.py",
+    "bytes": 2193,
+    "sha256": "03c4c2af87abfb4cf51369ecb07197ec41ec42bad5873f4f216fa0a373f67d7e"
+  },
+  {
+    "path": "jailbreak/scripts/rerun_fixed_budget.py",
+    "bytes": 21029,
+    "sha256": "1f1b7ab143fa1028357b9bd9f0eb8cd7f570e55d25f8d14ddfeec316164051d1"
+  },
+  {
+    "path": "jailbreak/scripts/run_controller_feedback_ablation.py",
+    "bytes": 12545,
+    "sha256": "65e4e65365387cc4d39fe327f1b394260fb4065895463bbd79db1282a9c8de06"
+  },
+  {
+    "path": "jailbreak/scripts/run_one_step_controller_ablation.py",
+    "bytes": 12834,
+    "sha256": "c2334edfc36e9f7ed2c3ab3b7d38d50fd29812b869e7b6c12b380ffb5e5b734d"
+  },
+  {
+    "path": "jailbreak/scripts/run_rewriter_sensitivity.py",
+    "bytes": 12863,
+    "sha256": "569c7b77bdf4ff5b24352b7bec0c5459fad472d2ab8d6c47982542e09da630ab"
+  },
+  {
+    "path": "jailbreak/scripts/run_sac_transfer.py",
+    "bytes": 5445,
+    "sha256": "09526a033de2511a16ef90cb2607da25ae149e0f0cdb9b7a6c0a7255b35fc517"
+  },
+  {
+    "path": "jailbreak/scripts/run_sensitivity_study.py",
+    "bytes": 3471,
+    "sha256": "1680f1fadcbc0ebada32f0da9651ae655f169f5a273ce4a37698d2046e2c551c"
+  },
+  {
+    "path": "jailbreak/scripts/start_stack.sh",
+    "bytes": 5347,
+    "sha256": "2c48b1717eeb24601b0fecdb706a1eaa455898305d27190008d16e2b958583d5"
+  },
+  {
+    "path": "jailbreak/src/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "jailbreak/src/ablations/B3/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "jailbreak/src/ablations/B3/b3_aggregate.py",
+    "bytes": 5415,
+    "sha256": "37078e241a80644c2a81137803bcd7c04025d9cc7107ab29d0ae41a85df6a905"
+  },
+  {
+    "path": "jailbreak/src/ablations/B3/b3_config.py",
+    "bytes": 982,
+    "sha256": "27aa46e21b14748f288e4ed4758e9378f43be0a90689a7e193caf39d798f5b93"
+  },
+  {
+    "path": "jailbreak/src/ablations/B3/b3_env.py",
+    "bytes": 14432,
+    "sha256": "1641659af06c163c879e0460117a855527096465e8a267f6c37d469f2cf52ad6"
+  },
+  {
+    "path": "jailbreak/src/ablations/B3/b3_metrics.py",
+    "bytes": 2988,
+    "sha256": "000d7f9c09f542e984627f876814a42f241730fe127fc35f6e112c76b0aea254"
+  },
+  {
+    "path": "jailbreak/src/ablations/B3/b3_registry.py",
+    "bytes": 345,
+    "sha256": "e038b135ec94e00867e70372fa383d153e5db8e15d5ffaff877c89b695f93280"
+  },
+  {
+    "path": "jailbreak/src/ablations/B3/b3_runner.py",
+    "bytes": 10660,
+    "sha256": "8f66dcfd9b04a979f3638bc207333156be234bfdd583a9ff1de57c5782f6a779"
+  },
+  {
+    "path": "jailbreak/src/ablations/B3/b3_sac.py",
+    "bytes": 11379,
+    "sha256": "f0a1d90ec6dfb431e099ef4d2f06c349c37262a3a4ad4dca2f529f0737102586"
+  },
+  {
+    "path": "jailbreak/src/ablations/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "jailbreak/src/ablations/algorithms.py",
+    "bytes": 15220,
+    "sha256": "9c93305816a7f5feb9db102e88eca8820052c3e635262849faa3c812daeb0c2f"
+  },
+  {
+    "path": "jailbreak/src/ablations/bandit_triad.py",
+    "bytes": 2938,
+    "sha256": "519d5ed7798f7b07256dbc271b2e8c439513295dcf73223b4d1eebcdfaa3dd90"
+  },
+  {
+    "path": "jailbreak/src/ablations/baseline/b2/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "jailbreak/src/ablations/baseline/b2/aggregate.py",
+    "bytes": 5017,
+    "sha256": "23782933c368356b41463d37a88a663f25d2a0fc65cc0b82c2c947dff75a1fd7"
+  },
+  {
+    "path": "jailbreak/src/ablations/baseline/b2/b2_env.py",
+    "bytes": 19407,
+    "sha256": "1493b7f6cff13001b79c318aa6498be85da6091707ca67accdb65092cd554908"
+  },
+  {
+    "path": "jailbreak/src/ablations/baseline/b2/b2_run_store.py",
+    "bytes": 6807,
+    "sha256": "8742b67ee46ca1eb198e473d5fadb1e5eb0c3f4de52b93d80c01485eec559cd8"
+  },
+  {
+    "path": "jailbreak/src/ablations/baseline/b2/b2_runner.py",
+    "bytes": 15434,
+    "sha256": "bb7e5b9e0bda2e5af40fbaf624c541301aa6e816844fa08722a8c64ee4a8e76f"
+  },
+  {
+    "path": "jailbreak/src/ablations/baseline/b2/config.py",
+    "bytes": 3973,
+    "sha256": "4ae960ac1ceae4a7eaef52837151217fba064bac110705b9e797630d26d2b74c"
+  },
+  {
+    "path": "jailbreak/src/ablations/baseline/b2/reward.py",
+    "bytes": 4712,
+    "sha256": "829282be69f349019e0eda67a9f27b891b8af163afcb336903da6b25debac748"
+  },
+  {
+    "path": "jailbreak/src/ablations/baseline/b2/train_eval.py",
+    "bytes": 9079,
+    "sha256": "97f524d94456cf6e9a30a0fdd3cd05cd33d1d9764aa49ea53930de15777207f2"
+  },
+  {
+    "path": "jailbreak/src/ablations/config.py",
+    "bytes": 1819,
+    "sha256": "7fc98d1cd617b14461adecd7b2e8a508c9641a7774f3b8373b4145a427a44cc8"
+  },
+  {
+    "path": "jailbreak/src/ablations/metrics.py",
+    "bytes": 1759,
+    "sha256": "be7c537d399724b1440b933534a522f7a7cc21a18cd6237d8aae68314f12aa4e"
+  },
+  {
+    "path": "jailbreak/src/ablations/ppo_triad.py",
+    "bytes": 13887,
+    "sha256": "3d33996184ad8cb8b497fbb7e180c600639137293e83051f8a60e2632642898c"
+  },
+  {
+    "path": "jailbreak/src/ablations/runner.py",
+    "bytes": 1685,
+    "sha256": "3d764c6f54d15ca601eb4dec89e8863e844ae24e88b726ba336721256d5489fd"
+  },
+  {
+    "path": "jailbreak/src/ablations/sac_triad/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "jailbreak/src/ablations/sac_triad/deepseek_r1_7b.yaml",
+    "bytes": 932,
+    "sha256": "f54c1c9fa76dc9ba20cc589864f3a8ffbf808ea9879b897a53e28d7e02ef789c"
+  },
+  {
+    "path": "jailbreak/src/ablations/sac_triad/gpt_oss_20b.yaml",
+    "bytes": 917,
+    "sha256": "7bbd7c33cd9594be717898fdfac2218d344dff0f1266cc98d05f889aa58c8440"
+  },
+  {
+    "path": "jailbreak/src/ablations/sac_triad/granite_guardian_8b.yaml",
+    "bytes": 973,
+    "sha256": "ee056e5191c7b3250db83c4cf264f1460d8356555cec765b39dcf3dcac539eaf"
+  },
+  {
+    "path": "jailbreak/src/ablations/sac_triad/llama_guard3_8b.yaml",
+    "bytes": 950,
+    "sha256": "c407239251f8bbde1c306fef434c51b9365c4a19a17f304c6ba6d2ad02624b13"
+  },
+  {
+    "path": "jailbreak/src/ablations/sac_triad/qwen2_5_14b.yaml",
+    "bytes": 954,
+    "sha256": "33caf17279c5b1fe1f52ac4c4c5ad81fc4fabefad5da7f47488dfcbb7a275dd0"
+  },
+  {
+    "path": "jailbreak/src/ablations/sac_triad/runner.py",
+    "bytes": 7912,
+    "sha256": "23ae3eeb9ec1ccdbf1a183e1b51b2a90e5498a8381a5aa806cf129063607ad20"
+  },
+  {
+    "path": "jailbreak/src/ablations/sac_triad/shieldgemma_9b.yaml",
+    "bytes": 932,
+    "sha256": "b311b7eaa48fd23b50af0514d0720dd13571ec182d4f71fca0dc6414f26bd77e"
+  },
+  {
+    "path": "jailbreak/src/ablations/sac_triad/vicuna_13b.yaml",
+    "bytes": 912,
+    "sha256": "803be7588e392e955a4e9c1f6dd9faa09efad566710eeb8578a30dc380d80a1f"
+  },
+  {
+    "path": "jailbreak/src/baselines/GPTFUZZER/__init__.py",
+    "bytes": 37,
+    "sha256": "0dc59d5031b72de5c81cca9025a96dfcce4d76bebc57596a8577216fb1911f96"
+  },
+  {
+    "path": "jailbreak/src/baselines/GPTFUZZER/aggregate.py",
+    "bytes": 9863,
+    "sha256": "2dbb9af2235c5ba4a79655db7ab170b157db12870daa730babd2ae2d939154fe"
+  },
+  {
+    "path": "jailbreak/src/baselines/GPTFUZZER/attack.py",
+    "bytes": 24585,
+    "sha256": "f9ab1736c706487f591c55a5ae1c3e57f5d664c8099500d15fc70808116ec50d"
+  },
+  {
+    "path": "jailbreak/src/baselines/GPTFUZZER/config.py",
+    "bytes": 16735,
+    "sha256": "3d738edc97ea4f08f982f5a19bd5f437380b83f0e0ec56aa29004cd3f76d0265"
+  },
+  {
+    "path": "jailbreak/src/baselines/GPTFUZZER/runner.py",
+    "bytes": 8421,
+    "sha256": "686f72bb39849d934dccc1b28c810ff595571e1188c4515f0161fdddbbb7f56e"
+  },
+  {
+    "path": "jailbreak/src/baselines/PAIR/__init__.py",
+    "bytes": 33,
+    "sha256": "37b704c0edb001db00ea58b46f1fe3ab4f7abf4578331815399f928061a8a344"
+  },
+  {
+    "path": "jailbreak/src/baselines/PAIR/aggregate.py",
+    "bytes": 2809,
+    "sha256": "df35ddac074de3f9ac8c77d4e4c399c35b49b8682531f0110819bf6133898059"
+  },
+  {
+    "path": "jailbreak/src/baselines/PAIR/attack.py",
+    "bytes": 18469,
+    "sha256": "4bc0c9aa64d3545078878db49b86e669549c6f6a14dd9378fd7876d5b930c4b9"
+  },
+  {
+    "path": "jailbreak/src/baselines/PAIR/config.py",
+    "bytes": 12823,
+    "sha256": "2b745ea421cf09c61382b6243ce6b35c1001fbec9196309561c7acf35a3bae1c"
+  },
+  {
+    "path": "jailbreak/src/baselines/PAIR/runner.py",
+    "bytes": 6308,
+    "sha256": "0ae9d8d1d8c51c0b41630cc3e8fd4acc3212c4a83f60673acf84ba8d1d2806cc"
+  },
+  {
+    "path": "jailbreak/src/baselines/TAP/__init__.py",
+    "bytes": 103,
+    "sha256": "e941a1a5d19b6ccc34179117e8d4732b4cbb44ec19c378869bd3d671fe73e688"
+  },
+  {
+    "path": "jailbreak/src/baselines/TAP/aggregate.py",
+    "bytes": 10347,
+    "sha256": "5a6ace8cb0cdac37dad562c15bfb78e08d8d1b85ef93c9b5053bbc1fc04ae361"
+  },
+  {
+    "path": "jailbreak/src/baselines/TAP/attack.py",
+    "bytes": 24719,
+    "sha256": "8f7036606769ae8fc69c2dcb6a3fc6b03ab7e695e20dfd367b9e199ef289d0ec"
+  },
+  {
+    "path": "jailbreak/src/baselines/TAP/config.py",
+    "bytes": 13644,
+    "sha256": "8827d9ef93135ad4ef9a6475b14393396db32c263ccecc93c9150c906416f8e4"
+  },
+  {
+    "path": "jailbreak/src/baselines/TAP/runner.py",
+    "bytes": 7673,
+    "sha256": "d65a8eab825537897dd11e211f55e7463e6cbf273c9e18e1bd4afa41eb7dcda0"
+  },
+  {
+    "path": "jailbreak/src/baselines/__init__.py",
+    "bytes": 103,
+    "sha256": "e941a1a5d19b6ccc34179117e8d4732b4cbb44ec19c378869bd3d671fe73e688"
+  },
+  {
+    "path": "jailbreak/src/baselines/aggregate.py",
+    "bytes": 11048,
+    "sha256": "d96e6e514625e958a48fdcc862c92bb63479173ccfa4344f5722842b0457fe4d"
+  },
+  {
+    "path": "jailbreak/src/baselines/autodan/__init__.py",
+    "bytes": 260,
+    "sha256": "9f0b4ed941b74dd1107d8bccaee8618dee83b2005ecb0a93a8d826dbd9db9749"
+  },
+  {
+    "path": "jailbreak/src/baselines/autodan/aggregate.py",
+    "bytes": 11515,
+    "sha256": "d63b80c9e50938303a21cb7635c7a4b93e5010bbaff67dcc447a326299e1823e"
+  },
+  {
+    "path": "jailbreak/src/baselines/autodan/attack.py",
+    "bytes": 21210,
+    "sha256": "3e25e053e935cde12e19dbae54bc56f96892e669357febf596fc08790d6116f1"
+  },
+  {
+    "path": "jailbreak/src/baselines/autodan/config.py",
+    "bytes": 11705,
+    "sha256": "89c6ae6311eade11a190fcd93cb000161e7abbdf1ad474e8a540d0c39855fa3e"
+  },
+  {
+    "path": "jailbreak/src/baselines/autodan/runner.py",
+    "bytes": 7798,
+    "sha256": "fdbee4d901fa4b939c3fd93f4bf05bb0d4b33142394ad628fbd36ef5bf88484b"
+  },
+  {
+    "path": "jailbreak/src/baselines/core.py",
+    "bytes": 6072,
+    "sha256": "98cac11a9d4feff0c169f8025573836692a099d1e3a7475ad1f90e6c3230178e"
+  },
+  {
+    "path": "jailbreak/src/baselines/gcg/__init__.py",
+    "bytes": 87,
+    "sha256": "7f4f8b032a54d14b1b755d0bf69089ee60d09659691c5460100489ccb1149a03"
+  },
+  {
+    "path": "jailbreak/src/baselines/gcg/attack.py",
+    "bytes": 21457,
+    "sha256": "4a866e0b89c8805c8868723be54a97d69cf3e8ba0b385aa6c25777f742a612f2"
+  },
+  {
+    "path": "jailbreak/src/baselines/gcg/config.py",
+    "bytes": 12335,
+    "sha256": "c6d70c1b3c54d5b014ad90f32bf824a3acba56b7905adaae6e16c90b1b90bc88"
+  },
+  {
+    "path": "jailbreak/src/baselines/rlbreaker/__init__.py",
+    "bytes": 431,
+    "sha256": "2c10189fa3b6a054b71d74e5018029af8940fd265a48a396171aa1f0fe2e4236"
+  },
+  {
+    "path": "jailbreak/src/baselines/rlbreaker/agent.py",
+    "bytes": 8849,
+    "sha256": "27b59500664d56a8c1c812bce93b36066e8d9891b6692e616bade74330a140ba"
+  },
+  {
+    "path": "jailbreak/src/baselines/rlbreaker/aggregate.py",
+    "bytes": 10713,
+    "sha256": "52fb514f28786e20d76af379d3e2ce9c5e283e2e89048a9e02a391433a2dfcb2"
+  },
+  {
+    "path": "jailbreak/src/baselines/rlbreaker/attack.py",
+    "bytes": 18277,
+    "sha256": "6e0dca6520fe6bb13d6d75119529130c893fc77bb0a28d8b6bcb38964dec3e76"
+  },
+  {
+    "path": "jailbreak/src/baselines/rlbreaker/config.py",
+    "bytes": 17612,
+    "sha256": "ba3055b0f7aa49fc428cca314fc26d9b54678cc00370f594a2d1a1dda4023067"
+  },
+  {
+    "path": "jailbreak/src/baselines/rlbreaker/env.py",
+    "bytes": 9501,
+    "sha256": "1f5efeb46fd5708e3698d0c7618727a82bb2ce1259faf9215afacbada50f2412"
+  },
+  {
+    "path": "jailbreak/src/baselines/rlbreaker/runner.py",
+    "bytes": 6631,
+    "sha256": "a41f437f2994994d8fed6b6f32a889ad1a9fb169e738528eb9c93afdab009b85"
+  },
+  {
+    "path": "jailbreak/src/baselines/runner.py",
+    "bytes": 7796,
+    "sha256": "4b03e97e1041f65a9b09101a5455a2c1dd00bf8258d4b1d28bbe9a8614f966a6"
+  },
+  {
+    "path": "jailbreak/src/baselines/xjailbreak/__init__.py",
+    "bytes": 74,
+    "sha256": "f04d6a3c1b290724f8981cf3f507c7630b5f810e120cd1fe91799c8656b52f92"
+  },
+  {
+    "path": "jailbreak/src/baselines/xjailbreak/aggregate.py",
+    "bytes": 3853,
+    "sha256": "259c282434144c769772d29b4fe1cb53c589fb70c914c0a5f8a2ea164e72d915"
+  },
+  {
+    "path": "jailbreak/src/baselines/xjailbreak/attack.py",
+    "bytes": 28629,
+    "sha256": "6733f480fde0998c4ee5c68e4a325160797f810bbb6b8f24ac875cc5ac15fc32"
+  },
+  {
+    "path": "jailbreak/src/baselines/xjailbreak/config.py",
+    "bytes": 13236,
+    "sha256": "5854d3c934232133e4d84dd108f904416ddb3c3d8652f34f22659624720f4995"
+  },
+  {
+    "path": "jailbreak/src/baselines/xjailbreak/runner.py",
+    "bytes": 6306,
+    "sha256": "2c365dea260281639607f12b5ff33207495b2a35e22a17e5c5569fce4ff2a886"
+  },
+  {
+    "path": "jailbreak/src/cli.py",
+    "bytes": 42794,
+    "sha256": "3044e784a3ae38d833dfea7ab939234f188b9cc718207105dd40815ffdbcec41"
+  },
+  {
+    "path": "jailbreak/src/config.py",
+    "bytes": 2095,
+    "sha256": "011874a803c27ce2ab14954ff10b4619a25fc7e87d3330dfb601c8b5f83b593e"
+  },
+  {
+    "path": "jailbreak/src/data/loader.py",
+    "bytes": 19673,
+    "sha256": "0dd10baf5b5a061002ea8aef3797ea6c8d1fc29b32a3a26731922fd678c6e273"
+  },
+  {
+    "path": "jailbreak/src/eval/metrics.py",
+    "bytes": 7544,
+    "sha256": "6942638fbc5889f933e694abf9d2e5577fec5ff02b3b3090f965418d3c7b2478"
+  },
+  {
+    "path": "jailbreak/src/judge/__init__.py",
+    "bytes": 180,
+    "sha256": "36ad56291cd6d625d679859ee92b6a686f361b15f114e26bf0e16fa92660aeaa"
+  },
+  {
+    "path": "jailbreak/src/judge/judge_llm.py",
+    "bytes": 8001,
+    "sha256": "390d9844e305fdc891ed31e849f202a07b0761f0e19ea3eae85c7bdc0530041d"
+  },
+  {
+    "path": "jailbreak/src/models/adapters.py",
+    "bytes": 5115,
+    "sha256": "809f72030321a08df780ec60e65cfb22729a90daf6cb56361cdb0e65bac77a03"
+  },
+  {
+    "path": "jailbreak/src/models/llm_base.py",
+    "bytes": 2237,
+    "sha256": "f33a9e0ecb08082561a76f11efb2962684c5693338d5d59f182659dbc118cb25"
+  },
+  {
+    "path": "jailbreak/src/models/ollama_llm.py",
+    "bytes": 5031,
+    "sha256": "03f96b5d0fce9a8e46c4e70a2611e5983d78d33350b76109eedd4a13cee6a37b"
+  },
+  {
+    "path": "jailbreak/src/models/router.py",
+    "bytes": 2155,
+    "sha256": "cb67e15d136d0945ded5c76a79fba700c52482f92a772db931a474b07ca66b79"
+  },
+  {
+    "path": "jailbreak/src/models/router_llm.py",
+    "bytes": 2841,
+    "sha256": "144ac0252dc539b3ae915296d59a82362fb846da18c52297c896b704048c83c5"
+  },
+  {
+    "path": "jailbreak/src/models/utils.py",
+    "bytes": 737,
+    "sha256": "5a99ec38295a51247ee28717a9fbfbb6823baded31f4353390d6bfb5cc2a47da"
+  },
+  {
+    "path": "jailbreak/src/reward/rewarder.py",
+    "bytes": 4371,
+    "sha256": "3ac49f709c14aa75d693562ab7c63eaf44053175315ccfc2985aeb2c3d12734f"
+  },
+  {
+    "path": "jailbreak/src/rewriter/rewriter_llm.py",
+    "bytes": 5900,
+    "sha256": "70a570587e44b19749df8d3d2532c582cf2adf4bd57302904477d2dc11c1fa72"
+  },
+  {
+    "path": "jailbreak/src/rl/__init__.py",
+    "bytes": 173,
+    "sha256": "5c6a48fa3cb96c7c1847fbdbb09a1dcf815298ef903697586c9d0532659abffd"
+  },
+  {
+    "path": "jailbreak/src/rl/envs/__init__.py",
+    "bytes": 104,
+    "sha256": "be470e91e7e5266cd5254d44aa7220740b333ccb5fc998894fa5c72b35dbf192"
+  },
+  {
+    "path": "jailbreak/src/rl/envs/prompt_hybrid_env.py",
+    "bytes": 16203,
+    "sha256": "b2817cab5fac7814eefbe7e6129940d7acd16d0ce0a4ffa5e3ed0c3f38a7b26e"
+  },
+  {
+    "path": "jailbreak/src/rl/hybrid_sac.py",
+    "bytes": 28286,
+    "sha256": "a6093d8486bcfb1e97e1a335e9fe2d746fbe24bc0b95a97bcd388a0833e327c5"
+  },
+  {
+    "path": "jailbreak/src/rl/registry.py",
+    "bytes": 496,
+    "sha256": "22e0a169979121b783f6acaad9d5af418b2661c7b2de3a9d117ada52b00aa263"
+  },
+  {
+    "path": "jailbreak/src/rl/utils/io.py",
+    "bytes": 1628,
+    "sha256": "2ba1c6e422516e8aed9d4bff50e38e537a8a0e5a7661bdbc13c4e5160a1b7c8a"
+  },
+  {
+    "path": "jailbreak/src/store/run_store.py",
+    "bytes": 8889,
+    "sha256": "697640aa66ecb75c56703356b9f4e785d1f6e0e4662536f320f73529dc48f761"
+  },
+  {
+    "path": "jailbreak/tests/test_execution_fixes.py",
+    "bytes": 8798,
+    "sha256": "02c8a5907854e7e32fea2b5e27a260887b32d4d180b9cda011832129434f715c"
+  },
+  {
+    "path": "jailbreak/tests/test_shared_judge.py",
+    "bytes": 4645,
+    "sha256": "34afad516824fa26adec0a29146753dc8219eb183e8c278588dd3cab01e7c682"
+  },
+  {
+    "path": "requirements.txt",
+    "bytes": 173,
+    "sha256": "2fade42024a9f9ca0aa0c60c420600c0b7bea51194c1310fff9f9514e0e19d81"
+  }
+]
