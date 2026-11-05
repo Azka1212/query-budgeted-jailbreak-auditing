@@ -18,7 +18,7 @@ The architecture and trade-off figures are extracted from the supplied manuscrip
 
 [A Collaborative Multi-Agent Framework for Jailbreaking with RL-Based Dynamic Prompting](https://openreview.net/forum?id=hk3qQRuDwA), AAAI 2026 Workshop on Trust and Control in Agentic AI (TrustAgent).
 
-The journal manuscript extends the workshop study. This source release includes controller code, baseline adapters, configuration files, evaluation and analysis scripts, and dataset inputs. It excludes experiment logs, generated responses, trained checkpoints, and model weights. A Zenodo DOI has not yet been assigned.
+The journal manuscript extends the workshop study. This source release includes controller code, baseline adapters, configuration files, evaluation and analysis scripts, and dataset inputs. It excludes experiment logs, generated responses, trained checkpoints, and model weights. The archived v1.0.0 release is available at [DOI: 10.5281/zenodo.23991391](https://doi.org/10.5281/zenodo.23991391).
 
 ## Repository layout
 
