@@ -6,8 +6,33 @@
   },
   {
     "path": "README.md",
-    "bytes": 3338,
-    "sha256": "63f5b9fb8581ab51c7be916a940276fd769762d1a63a5ab8f6a1dfc8e1abd145"
+    "bytes": 3738,
+    "sha256": "dfc56005183c0ca5e0f1d19e6984e9772a86e4b22d91ae04e8ce2542885f708f"
+  },
+  {
+    "path": "docs/architecture.md",
+    "bytes": 1384,
+    "sha256": "1c9f6cd53a503129850200a8e34a8ff250c6e4afc205938ca2bb7deff91bfe6b"
+  },
+  {
+    "path": "docs/figures/controller_feedback_asr.pdf",
+    "bytes": 20948,
+    "sha256": "57c8dc1f151ee8f57a96f26ad0114c61344e757adc09cc016650944b909d1690"
+  },
+  {
+    "path": "docs/figures/controller_feedback_asr.png",
+    "bytes": 268578,
+    "sha256": "907985e68388d09e6fe87600afb3a50fb786e2e8baf4eba7de78fd7b02c9cefd"
+  },
+  {
+    "path": "docs/manuscript_result_tables.tex",
+    "bytes": 4899,
+    "sha256": "23a7dfbc93c63be740ea85fa4ee9d66021e4a545ba9419c563ccadc7ff52433c"
+  },
+  {
+    "path": "docs/results.md",
+    "bytes": 1908,
+    "sha256": "81d5230ab775e2b8135f2cbfce846930d4d4da5bec6f683daab0238777b04640"
   },
   {
     "path": "jailbreak/__init__.py",

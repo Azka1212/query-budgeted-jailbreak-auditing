@@ -1,0 +1,224 @@
+% Tables copied from the user-supplied manuscript snapshot. Not independently recomputed.
+
+\begin{table*}[t]
+\centering
+\small
+
+\caption{\textbf{Objective-level jailbreak performance across four target
+models under an evaluation-time query budget of $Q=25$.}
+ASR denotes Attack Success Rate ($\uparrow$), and Q/S denotes post-training
+Queries-per-Success ($\downarrow$). All methods are evaluated on the same
+50 \textsc{JBB--OOD} objectives under the common evaluation protocol.
+\textbf{Bold} denotes the best observed result within each target and metric,
+with ties highlighted jointly.}
+\label{tab:main_results}
+
+\setlength{\tabcolsep}{3.5pt}
+\renewcommand{\arraystretch}{1.06}
+
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{
+@{}l
+cc
+cc
+cc
+cc@{}
+}
+\toprule
+
+\multirow{2}{*}{\textbf{Method}}
+&
+\multicolumn{2}{c}{\textbf{Qwen2.5-14B}}
+&
+\multicolumn{2}{c}{\textbf{DeepSeek-R1-7B}}
+&
+\multicolumn{2}{c}{\textbf{Vicuna-13B}}
+&
+\multicolumn{2}{c}{\textbf{GPT-OSS-20B}}
+\\
+
+\cmidrule(lr){2-3}
+\cmidrule(lr){4-5}
+\cmidrule(lr){6-7}
+\cmidrule(lr){8-9}
+
+&
+\textbf{ASR} $\uparrow$
+& \textbf{Q/S} $\downarrow$
+& \textbf{ASR} $\uparrow$
+& \textbf{Q/S} $\downarrow$
+& \textbf{ASR} $\uparrow$
+& \textbf{Q/S} $\downarrow$
+& \textbf{ASR} $\uparrow$
+& \textbf{Q/S} $\downarrow$
+\\
+
+\midrule
+
+GCG
+& 0.760 & 10.605
+& 0.640 & 18.125
+& 0.800 & 10.300
+& 0.700 & 14.200
+\\
+
+AutoDAN
+& 0.880 & 7.159
+& 0.660 & 16.667
+& 0.920 & 5.587
+& 0.700 & 16.743
+\\
+
+GPTFuzzer
+& 0.980 & 9.571
+& 0.940 & 10.596
+& 0.980 & 9.796
+& 0.940 & 11.638
+\\
+
+PAIR
+& 0.980 & 1.673
+& 0.980 & 2.224
+& \textbf{1.000} & 1.700
+& 0.940 & 2.426
+\\
+
+TAP
+& 0.280 & 68.500
+& 0.760 & 15.237
+& 0.500 & 32.000
+& 0.740 & 17.000
+\\
+
+RL-Breaker
+& 0.160 & 28.625
+& 0.320 & 13.375
+& 0.240 & 18.167
+& 0.280 & 14.714
+\\
+
+xJailbreak
+& 0.860 & 1.209
+& 0.980 & 1.592
+& \textbf{1.000} & 2.540
+& \textbf{0.980} & 2.633
+\\
+
+\midrule
+
+\textbf{Ours}
+& \textbf{1.000} & \textbf{1.100}
+& \textbf{1.000} & \textbf{1.480}
+& \textbf{1.000} & \textbf{1.200}
+& \textbf{0.980} & \textbf{1.816}
+\\
+
+\bottomrule
+\end{tabular}%
+}
+
+\end{table*}
+
+\begin{table*}[t]
+\centering
+\small
+\caption{\textbf{Learned-selection and feedback ablation.}
+Mean $\pm$ sample standard deviation over three evaluation seeds,
+with 50 objectives per run and frozen SAC checkpoints.}
+\label{tab:controller_feedback_ablation}
+\begin{tabular}{llccc}
+\toprule
+\textbf{Target} & \textbf{Condition}
+& \textbf{ASR} $\uparrow$ & \textbf{Q/S} $\downarrow$
+& \textbf{ASR@1} $\uparrow$ \\
+\midrule
+Qwen2.5-14B & SAC & $0.980 \pm 0.020$ & $3.151 \pm 0.582$ & $0.527 \pm 0.081$ \\
+ & Random & $0.987 \pm 0.012$ & $3.596 \pm 0.259$ & $0.527 \pm 0.031$ \\
+ & Fixed & $0.960 \pm 0.000$ & $3.410 \pm 0.213$ & $0.613 \pm 0.023$ \\
+ & SAC without updated feedback & $0.980 \pm 0.020$ & $3.144 \pm 0.593$ & $0.533 \pm 0.092$ \\
+\midrule
+GPT-OSS-20B & SAC & $0.680 \pm 0.020$ & $18.367 \pm 2.408$ & $0.107 \pm 0.012$ \\
+ & Random & $0.733 \pm 0.061$ & $17.442 \pm 1.781$ & $0.093 \pm 0.061$ \\
+ & Fixed & $0.660 \pm 0.020$ & $20.982 \pm 0.394$ & $0.093 \pm 0.031$ \\
+ & SAC without updated feedback & $0.687 \pm 0.023$ & $17.850 \pm 2.867$ & $0.127 \pm 0.031$ \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\begin{table}[t]
+\centering
+\small
+\caption{\textbf{Offline sensitivity to seed-length normalization.}
+Each setting tests 1,000 states per target. Changes are measured
+relative to $L_{\max}=8000$.}
+\label{tab:lmax_sensitivity}
+
+\begin{tabular}{lrrr}
+\toprule
+\textbf{Target}
+& $L_{\max}$
+& \textbf{Operator changes}
+& \textbf{Max. control change} \\
+\midrule
+Qwen2.5-14B & 4000  & 0 & 0.000 \\
+            & 16000 & 0 & 0.000 \\
+\midrule
+GPT-OSS-20B & 4000  & 0 & 0.000 \\
+            & 16000 & 0 & 0.000 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[t]
+\centering
+\small
+\caption{\textbf{One-step rewriter sensitivity.}
+Mean $\pm$ sample standard deviation across three evaluation
+seeds, using frozen SAC checkpoints and 50 objectives per run.}
+\label{tab:rewriter_sensitivity}
+
+\begin{tabular}{llcc}
+\toprule
+\textbf{Target}
+& \textbf{Rewriter}
+& \textbf{ASR} $\uparrow$
+& \textbf{Q/S} $\downarrow$ \\
+\midrule
+Qwen2.5-14B
+& Yi-9B
+& $0.533\pm0.081$
+& $1.903\pm0.281$ \\
+& Mistral-Instruct
+& $0.413\pm0.012$
+& $2.421\pm0.069$ \\
+\midrule
+GPT-OSS-20B
+& Yi-9B
+& $0.127\pm0.012$
+& $7.937\pm0.687$ \\
+& Mistral-Instruct
+& $0.093\pm0.012$
+& $10.833\pm1.443$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[t]
+\centering
+\small
+\caption{\textbf{Measured inference cost of the completed controlled study.}
+Totals cover all four conditions, two targets, and three evaluation
+seeds. Request hours are summed per-call elapsed latencies.}
+\label{tab:controlled_cost}
+\begin{tabular}{lrr}
+\toprule
+\textbf{Component} & \textbf{Calls} & \textbf{Request hours} \\
+\midrule
+Rewriter & 9,634 & 6.34 \\
+Target & 9,634 & 4.87 \\
+Judge & 9,634 & 9.44 \\
+\midrule
+Total & 28,902 & 20.65 \\
+\bottomrule
+\end{tabular}
+\end{table}

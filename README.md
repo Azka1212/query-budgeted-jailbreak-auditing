@@ -2,6 +2,14 @@
 
 Research implementation of a hybrid Soft Actor–Critic controller, frozen prompt rewriter, target-model interface, and structured judge for language-model safety auditing.
 
+## Architecture and paper results
+
+[Framework architecture diagram](docs/architecture.md) · [Results and tables](docs/results.md)
+
+![Controller-feedback cumulative ASR](docs/figures/controller_feedback_asr.png)
+
+The architecture page provides a Mermaid redraw of the framework. The results page contains the primary manuscript table and links to the available paper figure and LaTeX table sources.
+
 ## Related workshop paper
 
 [A Collaborative Multi-Agent Framework for Jailbreaking with RL-Based Dynamic Prompting](https://openreview.net/forum?id=hk3qQRuDwA), AAAI 2026 Workshop on Trust and Control in Agentic AI (TrustAgent).
