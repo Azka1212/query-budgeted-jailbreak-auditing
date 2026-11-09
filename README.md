@@ -41,6 +41,12 @@ python -m jailbreak.src.cli --help
 
 Run module commands from the repository root. Local model services and models must be installed separately. Configure endpoints and model identifiers for your machine before execution. Do not commit credentials or `.env` files.
 
+## Manuscript alignment
+
+See the [configuration and results audit](docs/configuration_alignment.md). The current package is not yet a complete reproduction package for every manuscript table. Spreadsheet-readable CSV and LaTeX tables are linked from [Results](docs/results.md).
+
+The [judge prompt version notes](docs/judge_prompt_versions.md) include exact JSON and paper-ready LaTeX templates.
+
 ## Experiment scope
 
 The code supports training and evaluation workflows. The inspected Qwen2.5-14B and GPT-OSS-20B checkpoints used in the controller-feedback diagnostic had one-step terminal training records; repeated-attempt evaluation used frozen policies. Evaluation-seed repetitions assess variability conditional on saved checkpoints. This source release does not include those checkpoints and does not provide a claim that running the current code reproduces every historical reported value.
@@ -49,7 +55,7 @@ Some scripts retain experiment-specific paths and expect external checkpoint or 
 
 ## Datasets and attribution
 
-The `data/` directories preserve the upstream license and README files. Dataset sizes and source populations are distinct from the exact subsets used in individual experiments. In particular, the available JailbreakHub source has 390 questions; its inclusion does not identify the population behind every manuscript transfer result.
+The `data/` directories preserve the upstream license and README files. Dataset sizes and source populations are distinct from the exact subsets used in individual experiments. The available JailbreakHub source has 390 questions; the current transfer rerun uses an identified 50-objective subset (30 Illegal Activity and 20 Hate Speech). Its results are pending; the historical 0.830 result is not validated by identifying this new evaluation population.
 
 Third-party datasets and code remain subject to their original licenses. A project-wide software license should be selected by the authors before the public release.
 

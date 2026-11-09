@@ -32,3 +32,11 @@ Targets are Qwen2.5-14B, DeepSeek-R1-7B, Vicuna-13B, and GPT-OSS-20B; the evalua
 ## Table sources
 
 [LaTeX tables](manuscript_result_tables.tex) preserve the manuscript's primary comparison, controller-feedback diagnostic, normalization sensitivity, rewriter sensitivity, and measured controlled-study costs.
+
+## Verified reward-diagnostic correction
+
+[CSV](tables/reward_diagnostic_verified.csv) · [LaTeX](tables/reward_diagnostic_verified.tex). These corrections follow the archived per-variant counts and supersede the misassigned reward rows in the supplied draft. Success + Impact has ASR 0.452 and Q/S 6.095; the full reward has ASR 0.344 and Q/S 8.000.
+
+[Primary comparison CSV](tables/primary_manuscript_results.csv) is a transcription, not a recomputation.
+
+See the [configuration alignment audit](configuration_alignment.md) for unresolved code/manuscript differences. The 512-token transfer rerun is pending; the historical 0.830 is not represented here as a verified rerun result.

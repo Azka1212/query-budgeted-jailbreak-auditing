@@ -91,6 +91,7 @@ class OllamaLLM(BaseLLM):
         return "\n".join(parts)
 
     def generate(self, messages: List[Message], **decoding) -> Dict[str, Any]:
+        json_mode = bool(decoding.pop("json_mode", False))
         d = sanitize_decoding(decoding)
 
         payload: Dict[str, Any] = {
@@ -103,6 +104,8 @@ class OllamaLLM(BaseLLM):
                 "num_predict": d["max_tokens"],
             },
         }
+        if json_mode:
+            payload["format"] = "json"
 
         # Ollama supports stop as either a string or list; we pass through.
         if "stop" in d:
