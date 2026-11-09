@@ -45,7 +45,7 @@ Run module commands from the repository root. Local model services and models mu
 
 See the [configuration and results audit](docs/configuration_alignment.md). The current package is not yet a complete reproduction package for every manuscript table. Spreadsheet-readable CSV and LaTeX tables are linked from [Results](docs/results.md).
 
-The [judge prompt version notes](docs/judge_prompt_versions.md) include exact JSON and paper-ready LaTeX templates.
+Rewriter and judge prompts are maintained in their implementation code under `jailbreak/src/rewriter/` and `jailbreak/src/judge/`.
 
 ## Experiment scope
 
